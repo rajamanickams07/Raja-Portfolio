@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Facebook Logo */
+
+.logo {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: #1877f2;
+    margin: 20px 0;
+}
+
+/* Card */
+
+.signup-container {
+    width: 650px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #444;
+}
+
+form {
+    padding: 20px;
+}
+
+/* Inputs */
+
+input,
+select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.name-row {
+    display: flex;
+    gap: 15px;
+}
+
+.name-row input {
+    width: 50%;
+}
+
+.section-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* DOB */
+
+.dob-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.dob-row select {
+    flex: 1;
+}
+
+/* Gender */
+
+.gender-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.gender-box {
+    flex: 1;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.gender-box input {
+    width: auto;
+    margin: 0;
+}
+
+/* Info Text */
+
+.info-text {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.info-text a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+/* Button */
+
+.signup-btn {
+    display: block;
+    margin: 25px auto 10px;
+    width: 260px;
+    background: #00a400;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background: #008c00;
+}

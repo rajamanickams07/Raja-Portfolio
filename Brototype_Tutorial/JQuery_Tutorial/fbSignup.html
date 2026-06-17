@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Signup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/Brototype_Tutorial/facebook_signup/styles.css"
+    />
+  </head>
+  <body>
+    <div class="main-div">
+      <h1 id="logo">facebook</h1>
+
+      <form id="fbsingupform"> 
+        <div class="signup-form">
+          <div class="form-heading">
+            <h2>Create a new content</h2>
+            <p>It's quick and easy.</p>
+          </div>
+          <div class="input-fields">
+            <div class="half-width">
+              <input type="text" placeholder="First Name" name="fName" />
+            </div>
+            <div class="half-width">
+              <input type="text" placeholder="Last Name" name="sName" />
+            </div>
+            <div class="full-width">
+              <input type="number" placeholder="Mobile Number" name="mobile" />
+            </div>
+            <div class="full-width">
+              <input type="password" placeholder="New Password" name="password" />
+            </div>
+            <label>Date of birth</label>
+            <div class="dob-div">
+              <div class="quat-width">
+                <select name="day">
+                  <option value="">choose</option>
+                  <option value="1">1</option>
+                  <option value="2">1</option>
+                  <option value=3>1</option>
+                </select>
+              </div>
+              <div class="quat-width">
+                <select name="month">
+                  <option value="">choose</option>
+                  <option value="Jan">Jan</option>
+                  <option value="Feb">Feb</option>
+                  <option value="Mar">Mar</option>
+                </select>
+              </div>
+              <div class="quat-width">
+                <select name="year">
+                  <option value="">choose</option>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                </select>
+              </div>
+            </div>
+            <label>Gender</label>
+            <div class="dob-div">
+              <div class="quat-width">
+                <div class="radio-btn">
+                  <label class="radio-label">Female</label>
+                  <input type="radio" class="radio-input" name="gender" />
+                </div>
+              </div>
+              <div class="quat-width">
+                <div class="radio-btn">
+                  <label class="radio-label">Male</label>
+                  <input type="radio" class="radio-input" name="gender"/>
+                </div>
+              </div>
+              <div class="quat-width">
+                <div class="radio-btn">
+                  <label class="radio-label">Custom</label>
+                  <input type="radio" class="radio-input" name="gender"/>
+                </div>
+              </div>
+            </div>
+            <small>People who use our service may have uploaded your contact information to Facebook. <a href=#>Learn more</a></small>
+            <small>By clicking Sign Up, you agree to our terms, privacy policy, and cookies policy. You may receive SMS notifications from us and can opt out at any time.</small>
+
+            <div class="btn-div">
+                <button class="signup-btn">Sign Up</button>
+            </div>
+            <div class="btn-div">
+                <a class="sign-in" href="#">Already have an account?</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+     <script src="/Brototype_Tutorial/JQuery_Tutorial/fbSignup.js"></script>
+  </body>
+</html>

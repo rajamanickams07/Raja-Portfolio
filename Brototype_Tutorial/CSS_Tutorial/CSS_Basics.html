@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:blue;
+        }
+        #div{
+            background-color: aqua;
+            width: 500px;
+            padding: 20px;
+            word-spacing: 1px;
+            letter-spacing: 1px;
+            border: 5px solid black;
+            margin: 30px;
+        }
+
+        #outer_box{
+            width:800px;
+            height: 500px;
+            background-color: grey;
+            border: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .box{
+            width: 150px;
+            height: 150px;
+            float: left;
+        }
+
+        #box1{
+            background-color: red;
+        }
+
+        #box2{
+            background-color: green;
+        }
+
+        #box3{
+            background-color: yellow;
+        }
+
+        #box4{
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font:italic;">Hello guys</h1>
+    <div id="div">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis earum nostrum officiis maiores odit sit qui necessitatibus vitae consequatur, ullam eius dolorem magnam ducimus harum optio fugiat hic quia autem!
+    </div>
+
+    <div id="outer_box">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+    </div>
+</body>
+</html>

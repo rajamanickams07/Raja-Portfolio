@@ -1,0 +1,15 @@
+body{
+    font-size: 'Poppins',sans-serif;
+}
+.banner
+{
+    background-image: url(/images/Harbour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+
+.skills-padding
+{
+    padding:70px 0;
+}
